@@ -1,0 +1,14 @@
+The game involves two players. The role of the second player is played by the computer.
+The game is based on rounds.
+In one round, one player attacks, the other defends. The attacking player chooses to strike a piece
+body of the opponent (head, body, legs). The defending player selects the body part for the block (head,
+body, legs). At the end of the round, the result is calculated.
+- If the choice of a part of the body by the attacking and defending player coincides, the kick is considered
+locked and health glasses are not removed.
+- If the choice of a part of the body by the attacking and defending player does not match the kick is considered
+inflicted damage to a defending player.
+After striking, the number of health points of the defending player is checked.
+- If the health points of a defending player are less than or equal to zero, it is considered dead and
+the attacking player wins.
+- If the health points of the defending player are greater than zero, the round is considered to be over and
+players change places (the attacker becomes defensive)
